@@ -3,7 +3,7 @@
 const Home = () => {
     return (
         <div className="bg-[#F0F0FA] p-10">
-            <div className="space-y-3">
+            <div className="space-y-5">
                 <div className="grid grid-cols-12 gap-5">
                     <div className="col-span-4 bg-[#3B82F6] text-white text-center py-16 rounded-md">Blue</div>
                     <div className="col-span-4 rounded-md bg-[#3B82F6] text-white text-center py-16">Blue</div>

@@ -21,7 +21,7 @@ const AdminItem = () => {
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3'>
                     <CiBoxList className='text-3xl' />
-                    <Link className='font-semibold'>Categories</Link>
+                    <Link to={'/categories'} className='font-semibold'>Categories</Link>
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3 '>
                     <MdRestaurantMenu className='text-3xl' />
@@ -36,7 +36,7 @@ const AdminItem = () => {
                     <div id="dropdownDivider" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDividerButton">
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-[#3B82F6] hover:text-white dark:hover:bg-gray-600 dark:hover:text-white">Menu-1</a>
+                                <Link to={'/menu1'} className="block px-4 py-2 hover:bg-[#3B82F6] hover:text-white dark:hover:bg-gray-600 dark:hover:text-white">Menu-1</Link>
                             </li>
                             <li>
                                 <a href="#" className="block px-4 py-2 hover:bg-[#3B82F6] hover:text-white dark:hover:bg-gray-600 dark:hover:text-white">Menu-2</a>
@@ -53,23 +53,23 @@ const AdminItem = () => {
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3'>
                     <FaShopify className='text-3xl' />
-                    <Link className='font-semibold'>Orders</Link>
+                    <Link to={'/orders'} className='font-semibold'>Orders</Link>
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3 '>
                     <GiStarsStack className='text-3xl' />
-                    <Link className='font-semibold'>Review</Link>
+                    <Link to={'/review'} className='font-semibold'>Review</Link>
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3 '>
                     <FaUsers className='text-3xl' />
-                    <Link className='font-semibold'>Users</Link>
+                    <Link to={'/users'} className='font-semibold'>Users</Link>
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3'>
                     <HiOutlineInformationCircle className='text-3xl' />
-                    <Link className='font-semibold'>About Us</Link>
+                    <Link to={'/about'} className='font-semibold'>About Us</Link>
                 </li>
                 <li className='flex items-center px-5 py-3 hover:bg-[#3B82F6] hover:text-white  gap-3'>
                     <IoSettingsOutline  className='text-3xl' />
-                    <Link className='font-semibold'>Settings</Link>
+                    <Link to={'/settings'} className='font-semibold'>Settings</Link>
                 </li>
             </ul>
         </div>
